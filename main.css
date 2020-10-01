@@ -1,0 +1,101 @@
+body{
+    font-family: taoma;
+    margin: 0;
+    background: #eee;
+    
+}
+
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#main-navigation{
+    background: orange;
+    padding: 50px;
+}
+
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 6px;
+}
+
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#main-navigation a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    background-color: dimgray;
+    padding: 6px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+h3{
+    background: dimgray;
+    width: 15%;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+#main-navigation2{
+    background: #fff;
+}
+
+#main-navigation2 ul{
+    text-align: left;
+    list-style-type: none;
+    margin-left: 0;
+}
+
+#main-navigation2 a{
+    text-decoration: none;
+}
+
+.kay{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 50%;
+    padding-left: 3px;
+    margin-left: 6px 6px 6px 6px;
+    text-align: center;
+}
+
+@media screen and(min-width: 1050px){
+    .kay{
+        float: none;
+        width: 50%;
+        text-align: center;
+    }
+}
+
+.sidebar{
+    float: left;
+    text-align: left;
+    width: 20%;
+}
+
+.sidebar2{
+    float: right;
+    text-align: right;
+    width: 20%;
+}
+
+
